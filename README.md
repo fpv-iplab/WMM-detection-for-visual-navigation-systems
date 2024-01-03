@@ -7,7 +7,7 @@ achieved an F1 score of 92.37% in the synthetic domain and 75.42% on the propose
 developed tool are publicly available to encourage research on the topic.
 
 # Data genaration tool
-
+![PDF Image](images/ToolPPT.pdf.pdf)
 The code related to the data generation tool is located in /unity_tool. It includes the project assets and all relevant navigation and randomization scripts. The 3D models of environments (where available) need to be downloaded separately and placed in the /models directory within the Unity project.
 
 # Dataset

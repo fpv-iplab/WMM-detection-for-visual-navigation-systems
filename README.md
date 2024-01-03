@@ -8,9 +8,12 @@ developed tool are publicly available to encourage research on the topic.
 
 # Data genaration tool
 
-The code related to the data generation tool is located in /tool. It includes the project assets and all relevant navigation and randomization scripts. The 3D models of environments (where available) need to be downloaded separately and placed in the /models directory within the Unity project.
+The code related to the data generation tool is located in /unity_tool. It includes the project assets and all relevant navigation and randomization scripts. The 3D models of environments (where available) need to be downloaded separately and placed in the /models directory within the Unity project.
 
 # Dataset
 
+/dataset contains useful scripts for data organization and visualization.
 
 # Training and Testing
+
+/baseline contains scripts used for training and testing the different models presented in the paper.

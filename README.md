@@ -5,3 +5,12 @@ We consider the problem of inferring when the internal map of an indoor navigati
 ate a dataset considering 15 different environments, which is complemented by a small set of videos acquired in a real-world scenario and manually labelled for validation purposes. We hence benchmark an approach based on different ResNet18 configurations and compare their results on both synthetic and real images. We
 achieved an F1 score of 92.37% in the synthetic domain and 75.42% on the proposed real dataset using our best approach. While the results are promising, we also note that the proposed problem is challenging, due to the domain shift between synthetic and real data, and the difficulty in acquiring real data. The dataset and the
 developed tool are publicly available to encourage research on the topic.
+
+# Data genaration tool
+
+The code related to the data generation tool is located in /tool. It includes the project assets and all relevant navigation and randomization scripts. The 3D models of environments (where available) need to be downloaded separately and placed in the /models directory within the Unity project.
+
+# Dataset
+
+
+# Training and Testing

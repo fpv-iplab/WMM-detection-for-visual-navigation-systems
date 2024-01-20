@@ -17,6 +17,27 @@ The proposed dataset is available at the following URL:
 URL_PLACEHOLDER
 
 In the provided zip file are present 2 CSV files that refer to the virtual dataset and the real one.
+The CSV referred to synthetic data contains :
+- JSON file path of the frame.
+- Path to the RGB image file.
+- Path of the correct path segmentation file.
+- Path of the wrong path segmentation file.
+- Path to correct floor segmentation file path.
+- File path of the incorrect floor segmentation due to misalignment.
+- File path to the correct mask file of the Navigation Mesh provided by the Unity agent.
+- File path of the incorrect mask of the Navigation Mesh provided by the Unity agent.
+- Navigation start point.
+- Navigation goal point.
+- Difficulty of misalignment (Hard, Medium or Easy).
+- Correct floor segmentation rotation (expressed in quaternions).
+- Incorrect floor segmentation rotation (expressed in quaternions).
+- Correct floor segmentation position (expressed in a vector (x,y,z)).
+- Incorrect floor segmentation position (expressed in a vector (x,y,z)).
+- Number of pixels of the correct path segmentation.
+- Number of pixels of the correct path segmentation that are on the correct floor segmentation.
+- Number of pixels of the incorrect path segmentation.
+- Number of pixels of the incorrect path segmentation that lie on the correct floor segmentation.
+
 Synthetic data can be found in the New_acquisition folder.
 Real data are split into 3 folders, Aligned_frames, Misaligned_frames and Unknown_frames.
 

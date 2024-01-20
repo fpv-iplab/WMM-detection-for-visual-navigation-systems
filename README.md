@@ -13,7 +13,15 @@ Please refer to this URL to set-up the unity [Perception Package]([https://www.g
 
 # Dataset
 
-/dataset contains useful scripts for data organization and visualization.
+The proposed dataset is available at the following URL:
+URL_PLACEHOLDER
+
+In the provided zip file are present 2 CSV files that refer to the virtual dataset and the real one.
+Synthetic data can be found in the New_acquisition folder.
+Real data are split into 3 folders, Aligned_frames, Misaligned_frames and Unknown_frames.
+
+
+/dataset contains the Statistics_Building file, used to analyze and visualize proposed virtual data.
 
 # Training and Testing
 

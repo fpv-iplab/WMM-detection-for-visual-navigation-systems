@@ -13,8 +13,8 @@ Please refer to this URL to set-up the unity [Perception Package]([https://www.g
 
 # Dataset
 
-The proposed dataset is available at the following URL:
-[URL_PLACEHOLDER](https://iplab.dmi.unict.it/sharing/misalignment_detection/data.zip)
+The proposed dataset is available 
+[here](https://iplab.dmi.unict.it/sharing/misalignment_detection/data.zip).
 
 In the provided zip file are present 2 CSV files that refer to the virtual dataset and the real one.
 The CSV referred to synthetic data contains :

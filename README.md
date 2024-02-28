@@ -5,7 +5,7 @@ We consider the problem of inferring when the internal map of an indoor navigati
 achieved an F1 score of 92.37% in the synthetic domain and 75.42% on the proposed real dataset using our best approach. While the results are promising, we also note that the proposed problem is challenging, due to the domain shift between synthetic and real data, and the difficulty in acquiring real data. The dataset and the
 developed tool are publicly available to encourage research on the topic.
 
-# Data genaration tool
+# Data generation tool
 ![PDF Image](images/ToolPPT.jpg)
 The code related to the data generation tool is located in /unity_tool. It includes the project assets and all relevant navigation and randomization scripts. The 3D models of environments (if available) need to be downloaded separately and placed in the /models directory within the Unity project (under the directory "Modelli" place a directory called n-<model name> n is an integer from 0). Inside each model directory, a prefab called MODEL.prefab should be placed.
 
